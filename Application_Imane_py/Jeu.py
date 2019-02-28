@@ -11,7 +11,7 @@ joueur2_answer=input("%s quel est votre choix?" %joueur2)
 def comparaison(a1,a2):
 	if(a1==a2):
 		resultat = 1
-	elif ((a1 == "ciseau" and a2 =="pierrre") or(a1 == "papier" and a2 =="pierrre")or (a1 == "papier" and a2 =="ciseau") or (a1 == "pierre" and a2 =="papier")):
+	elif ((a1 == "ciseau" and a2 =="pierrre") or (a1 == "papier" and a2 =="ciseau") or (a1 == "pierre" and a2 =="papier")):
 		resultat = joueur2
 	else:
 		resultat = joueur1
